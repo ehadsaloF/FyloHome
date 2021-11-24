@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&family=Raleway:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0%;
+    list-style: none;
+    text-decoration: none;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4vw 4vw;
+    align-items: stretch;
+}
+nav img{
+    width: 10vw;
+}
+nav ul{
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav ul a{
+    color:hsl(243, 87%, 12%);
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+nav ul a:hover{
+    color:hsl(243, 74%, 56%);
+}
+#div1{
+    margin: 5vw 4vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.div1side1{
+    display: flex;
+    flex-direction: column;
+    width: 46vw;
+}
+.div1side1 h2{
+    font-family: 'open sans';
+    font-weight: 700;
+    font-size: 2.5vw;
+    margin-bottom: 1.5vw;
+}
+.div1side1 p{
+    font-family: 'open sans';
+    font-weight: 400;
+    font-size: 1vw;
+    margin-bottom: 2vw;
+}
+.div1side2 img{
+    width: 50vw;
+}
+.div1side1 form{
+    display: flex;
+    flex-direction: row;
+}
+.div1side1 .email{
+    border-color: hsl(243, 87%, 12%);
+    border-width: 1px;
+    border-style: solid;
+    font-family: raleway;
+    font-size: 1.5vw;
+    padding: .5vw 1vw;
+    margin-right: 1vw;
+    width: 60%;
+}
+::placeholder{
+    font-size: 1vw;
+}
+.div1side1 .btn{
+    background-color: hsl(219, 65%, 48%);
+    color: hsl(240, 75%, 98%);
+    border-width: 1px;
+    border-color: hsl(219, 65%, 48%);
+    border-style: solid;
+    font-family: raleway;
+    font-weight: 900;
+    font-size: 1vw;
+    width: 20%;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%);
+}
+.div1side1 .btn:hover{
+    background-color:hsla(219, 65%, 48%, 0.568) ;
+    border-color:hsla(219, 65%, 48%, 0.568) ;
+
+}
+.container2{
+    background-image: url('images/bg-curve-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:top;
+    padding-top: 7.5vw;
+}
+#div2{
+    background-color: hsla(240, 75%, 98%, 0.8);
+    padding-bottom: 5vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.div2side1{
+    display: flex;
+    flex-direction: column;
+    width: 46vw;
+}
+.div2side1 h2{
+    font-family: 'open sans';
+    font-weight: 700;
+    font-size: 2.5vw;
+    margin-bottom: 1.5vw;
+}
+#hey{
+    font-family: 'open sans';
+    width: 60%;
+    font-weight: 400;
+    font-size: 1vw;
+    margin-bottom: 0.75vw;
+}
+.div2side2 img{
+    width: 46vw;
+}
+#green_text{
+    color: hsl(170, 45%, 43%);
+    font-size: 1vw;
+    font-family: raleway;
+    padding-bottom: 0.5vw;
+    width: fit-content;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    margin-bottom: 2vw;
+}
+#arrow {
+    color: hsl(170, 45%, 43%);
+    width: 1vw;
+  }
+.card{
+    width: 40%;
+    background-color: white;
+    padding: 1vw 1vw;
+    border-radius: 0.5vw;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%);
+  }
+.card img{
+    width: 0.75vw;
+    margin-bottom: 0.3vw;
+  }
+.card p{
+    font-size: 0.75vw;
+    font-family: 'open sans';
+    width: 100%;
+    margin-bottom: 1vw;
+  }
+.card_profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+.card_profile img{
+    width: 2vw;
+    height:2vw;
+    border-radius: 50%;
+    margin-right: 0.3vw;
+  }
+.profile_text h4{
+    font-size: 0.6vw;
+    font-family: 'open sans';
+    margin-bottom: 0.1vw;
+  }
+#profile_tinytext{
+    font-size: 0.45vw;
+    font-family:raleway;
+    margin-bottom: 0%;
+  }
+#div3{
+    display: flex;
+    flex-direction: row;
+    padding: 5vw 4vw;
+    align-items: center;
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+}
+.div3side1{
+    width: 46vw;;
+}
+.div3side1 h2{
+    font-family: 'open sans';
+    font-weight: 700;
+    font-size: 2.5vw;
+    margin-bottom: 1.5vw;
+}
+.div3side1 p{
+    font-family: 'open sans';
+    font-weight: 400;
+    font-size: 1vw;
+    margin-bottom: 2vw;
+    width: 60%;
+}
+#div3 form{
+    display: flex;
+    flex-direction: column;
+    width: 46vw;
+}
+#div3 .email{
+    border-color: hsl(243, 87%, 12%);
+    border-width: 1px;
+    border-style: solid;
+    font-family: raleway;
+    font-size: 1.5vw;
+    padding: .5vw 1vw;
+    width: 80%;
+}
+#mail_valid{
+    font-family: raleway;
+    color: red;
+    width: 54vw;
+    text-align: left;
+    margin-bottom: 1vw;
+    font-size: 1.2vw;
+}
+::placeholder{
+    font-size: 1vw;
+}
+#div3 .btn{
+    background-color: hsl(219, 65%, 48%);
+    color: hsl(240, 75%, 98%);
+    border-width: 1px;
+    border-color: hsl(219, 65%, 48%);
+    border-style: solid;
+    font-family: raleway;
+    font-size: 1vw;
+    font-weight: 900;
+    width: 40%;
+    height: 2.5vw;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%);
+}
+#div3 .btn:hover{
+    background-color:hsla(219, 65%, 48%, 0.568) ;
+    border-color:hsla(219, 65%, 48%, 0.568) ;
+
+}
+footer{
+    display: flex;
+    padding: 5vw 4vw;
+    flex-direction: row;
+    align-items: baseline;
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    font-family:raleway;
+    font-size: 1vw;;
+}
+.foot1{
+    width: 20vw;
+    color: hsl(240, 75%, 98%);
+}
+.foot1 img{
+    width: 12vw;
+    fill:white;
+    margin-bottom: 1.5vw;
+}
+.foot1_text1{
+    margin-bottom: 1vw;
+}
+.foot1_text1::before{
+    content: "";
+    background:url('images/icon-phone.svg') no-repeat 0 0;
+    background-size: 1vw;
+    background-position: center;
+    padding-right: 1vw;
+    align-self: center;
+}
+.foot1_text2{
+    margin-bottom: 1vw;    
+}
+.foot1_text2::before{
+    content: "";
+    background:url('images/icon-email.svg') no-repeat 0 0;
+    background-size: 1vw;
+    background-position: center;
+    padding-right: 1vw;
+    align-self: center;
+}
+.foot2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60vw;
+    padding-top: 2vw;
+}
+.part1 li a, .part2 li a{
+    color: hsl(240, 75%, 98%);
+}
+.part1 li, .part2 li{
+    margin-bottom: 1vw;
+}
+.social_links a{
+    color: hsl(240, 75%, 98%);
+    margin-right: 2vw;
+}
+.social_links i{
+    color: hsl(240, 75%, 98%);
+    margin-right: 2vw;
+    border-radius: 50%;
+    padding: 0.5vw;
+}
+
+@media screen and (max-width:768px) {
+    nav{
+        padding: 4vw 10vw;
+    }
+    nav img{
+        width: 15vw;
+    }
+    #div1{
+        flex-direction: column-reverse;
+    }
+    .div1side1{
+        width: 80vw;
+    }
+    .div1side1 h2{
+        font-size: 4vw;
+        margin-bottom: 3vw;
+        text-align: center;
+    }
+    .div1side1 p{
+        font-size: 2.5vw;
+        text-align: center;
+        margin-bottom: 4vw;
+    }
+    .div1side2 img{
+        width: 50vw;
+        margin-bottom: 10vw;
+    }
+    .div1side1 form{
+        flex-direction: column;
+        align-items: center;
+    }
+    .div1side1 .email{
+        font-size: 2.5vw;
+        width: 60%;
+        margin-right: 0px;
+        margin-bottom: 2vw;
+        border-radius: 3px;
+    }
+    ::placeholder{
+        font-size: 2vw;
+    }
+    .div1side1 .btn{
+        padding: 1vw;
+        font-size: 2vw;
+        width: 60%;
+        margin-bottom: 5vw;
+        border-radius: 3px;
+    }
+    #div2{
+        flex-direction: column-reverse;
+    }
+    .div2side1{
+        flex-direction: column;
+        width: 80vw;
+        align-items: center;
+    }
+    .div2side1 h2{
+        font-size: 4vw;
+        margin-bottom: 3vw;
+        text-align: center;
+    }
+    #hey{
+        width: 100%;
+        font-size: 2.5vw;
+        text-align: center;
+        margin-bottom: 4vw;
+    }
+    .div2side2 img{
+        width: 50vw;
+        margin: 5vw auto;
+    }
+    #green_text{
+        font-size: 2vw;
+        margin-bottom: 5vw;
+    }
+    #arrow {
+        width:2vw;
+    }
+    .card{
+        width: 50%;
+        margin-bottom: 7vw;
+        padding: 2vw 2vw;
+      }
+    .card img{
+        width: 1.75vw;
+        margin-bottom: 1vw;
+      }
+    .card p{
+        font-size: 1.75vw;
+        margin-bottom: 1.5vw;
+      }
+    .card_profile img{
+        width: 4vw;
+        height:4vw;
+        margin-right: 1.3vw;
+      }
+    .profile_text h4{
+        font-size: 1.6vw;
+        margin-bottom: 0.5vw;
+      }
+    #profile_tinytext{
+        font-size: 1.45vw;
+      }
+    #div3{
+        flex-direction: column;
+        }
+    .div3side1{
+        width: 80vw;
+    }
+    .div3side1 h2{
+        text-align: center;
+        font-size: 4vw;
+        margin-bottom: 3vw;
+    }
+    .div3side1 p{
+        text-align: center;
+        font-size: 2.5vw;
+        margin-bottom: 2vw;
+        width: 100%;
+    }
+    #div3 form{
+        align-items: center;
+        width: 100%;
+    }
+    #div3 .email{
+        font-size: 2.5vw;
+        width: 60%;
+        margin-right: 0px;
+        margin-bottom: 0vw;
+        border-radius: 3px;
+    }
+    #mail_valid{
+        font-family: raleway;
+        color: red;
+        width: 54vw;
+        text-align: left;
+        margin-bottom: 2vw;
+        font-size: 2.2vw;
+    }
+    ::placeholder{
+        font-size: 2vw;
+    }
+    #div3 .btn{
+        padding: 1vw;
+        font-size: 2vw;
+        width: 60%;
+        margin-bottom: 5vw;
+        border-radius: 3px;
+        height: 4.5vw;
+    }
+    footer{
+        flex-direction: column;
+        align-items: baseline;
+        font-size: 2vw;
+    }
+    .foot1{
+        width: 90vw
+    }
+    .foot1 img{
+        width: 15vw;
+    }
+    .foot1_text1{
+        margin-bottom: 1.5vw;
+    }
+    .foot1_text1::before{
+        background-size: 2vw;
+    }
+    .foot1_text2{
+        margin-bottom: 3vw;    
+    }
+    .foot1_text2::before{
+        background-size: 2vw; 
+    }
+    .foot2{
+        justify-content: space-between;
+        width: 80vw;
+    }
+    .part1 li, .part2 li{
+        margin-bottom: 1.2vw;
+    }
+    .social_links a{
+        color: hsl(240, 75%, 98%);
+        margin-right: 2vw;
+    }
+    .social_links i{
+        color: hsl(240, 75%, 98%);
+        margin-right: 2vw;
+        border-radius: 50%;
+        padding: 0.5vw;
+    }
+    
+    
+}
+@media screen and (max-width:500px) {
+    nav{
+        padding: 7vw 5vw; 
+    }
+    nav img{
+        width: 20vw;
+    }
+    nav ul{
+        width: 55vw;
+        justify-content: space-around;
+    }
+    nav ul a{
+        font-size: 3.5vw;
+    }
+    .div1side1 h2{
+        font-size: 6vw;
+        margin-bottom: 6vw;
+    }
+    .div1side1 p{
+        font-size: 3.7vw;
+        margin-bottom: 8vw;
+    }
+    .div1side2 img{
+        width: 85vw;
+        margin-bottom: 12vw;
+    }
+    .div1side1 .email{
+        padding: 15px;
+        width: 90%;
+        height: 9vw;
+        margin-bottom: 4vw;
+    }
+    ::placeholder{
+        font-size: 2.5vw;
+    }
+    .div1side1 .btn{
+        font-size: 3.2vw;
+        width: 90%;
+        height: 9vw;
+        margin-bottom: 12vw;
+    }
+    .div1side1 .btn:hover{
+        background-color:hsla(219, 65%, 48%, 0.568) ;
+        border-color:hsla(219, 65%, 48%, 0.568) ;
+    
+    }
+    .container2{
+        background-image: url('images/bg-curve-mobile.svg');
+        padding-top: 9vw;
+    }
+    .div2side1 h2{
+        margin-bottom: 6vw;
+    }
+    #hey{
+        font-size: 3.5vw;
+        text-align: left;
+        margin-bottom: 10vw;
+    }
+    .div2side2 img{
+        width: 85vw;
+        margin: 15vw auto;
+    }
+    #green_text{
+        font-size: 3.5vw;
+        margin-bottom: 9vw;
+    }
+    #arrow {
+        width:3vw;
+    }
+    .card{
+        width: 80%;
+        margin-bottom: 12vw;
+        padding: 4vw 4vw;
+      }
+    .card img{
+        width: 3vw;
+      }
+    .card p{
+        font-size: 2.75vw;
+        margin-bottom: 4vw;
+      }
+    .card_profile img{
+        width: 7vw;
+        height:7vw;
+        margin-right: 2.3vw;
+      }
+    .profile_text h4{
+        font-size: 2.6vw;
+        margin-bottom: 1vw;
+      }
+    #profile_tinytext{
+        font-size: 2vw;
+      }
+    
+}
+
