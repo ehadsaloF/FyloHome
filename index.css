@@ -273,24 +273,14 @@ footer{
 .foot1_text1{
     margin-bottom: 1vw;
 }
-.foot1_text1::before{
-    content: "";
-    background:url('images/icon-phone.svg') no-repeat 0 0;
-    background-size: 1vw;
-    background-position: center;
-    padding-right: 1vw;
-    align-self: center;
+#icons{
+    margin: 0px;
+    padding: 0px;
+    margin-right: 5px;
+    width: 1vw;
 }
 .foot1_text2{
     margin-bottom: 1vw;    
-}
-.foot1_text2::before{
-    content: "";
-    background:url('images/icon-email.svg') no-repeat 0 0;
-    background-size: 1vw;
-    background-position: center;
-    padding-right: 1vw;
-    align-self: center;
 }
 .foot2{
     display: flex;
@@ -450,7 +440,7 @@ footer{
     #mail_valid{
         font-family: raleway;
         color: red;
-        width: 54vw;
+        width: 55vw;
         text-align: left;
         margin-bottom: 2vw;
         font-size: 2.2vw;
@@ -480,14 +470,12 @@ footer{
     .foot1_text1{
         margin-bottom: 1.5vw;
     }
-    .foot1_text1::before{
-        background-size: 2vw;
-    }
     .foot1_text2{
         margin-bottom: 3vw;    
     }
-    .foot1_text2::before{
-        background-size: 2vw; 
+    #icons{
+        margin-right: 10px;
+        width: 2vw;
     }
     .foot2{
         justify-content: space-between;
@@ -550,11 +538,6 @@ footer{
         height: 9vw;
         margin-bottom: 12vw;
     }
-    .div1side1 .btn:hover{
-        background-color:hsla(219, 65%, 48%, 0.568) ;
-        border-color:hsla(219, 65%, 48%, 0.568) ;
-    
-    }
     .container2{
         background-image: url('images/bg-curve-mobile.svg');
         padding-top: 9vw;
@@ -602,6 +585,68 @@ footer{
     #profile_tinytext{
         font-size: 2vw;
       }
+    .div3side1{
+        width: 75vw;
+    }
+    .div3side1 h2{
+        margin-bottom: 10vw;
+    }
+    .div3side1 p{
+        font-size: 3.5vw;
+        margin-bottom: 4vw;
+    }
+    #div3 .email{
+        padding: 15px;
+        width: 70%;
+        height: 9vw;
+        margin-bottom: 0vw;
+    }
+    #mail_valid{
+        width: 64vw;
+    }
+    ::placeholder{
+        font-size: 2.5vw;
+    }
+    #div3 .btn{
+        font-size: 3.2vw;
+        width: 70%;
+        height: 9vw;
+        margin-bottom: 12vw;
+    }
+    footer{
+        font-size: 4.5vw;
+        padding: 5vw 10vw;
+    }
+    .foot1{
+        margin-bottom: 10vw;
+    }
+    .foot1 img{
+        width: 40vw;
+        margin-top: 10vw;
+        margin-bottom: 7.5vw;
+    }
+    .foot1_text1{
+        margin-bottom: 4.5vw;
+    }
+    .foot1_text2{
+        margin-bottom: 4.5vw;    
+    }
+    #icons{
+        width: 4.5vw;
+    }
+    .foot2{
+        flex-direction: column;
+    }
+    .part1 li, .part2 li{
+        margin-bottom: 3.5vw;
+    }
+    .part1, .part2, .social_links{
+        margin-bottom: 10vw;
+    }
+    .social_links{
+        align-self: center;
+    }
+    
     
 }
 
